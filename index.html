@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GharSeMarket- A place with comfort of home</title>
+    <link rel="shortcut icon" href="Pictures/GharSeMarket.png" type="/svg+xml">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="Pictures/logo1.jpg">
+  <link rel="preload" as="image" href="Pictures/Banner-1.png">
+  <link rel="preload" as="image" href="Pictures/Banner-2.png">
+  
+</head>
+<body id="top">
+    <header class="header">
+        <div class="alert">
+            <div class="container">
+                <p class="alert-text">A place which share stories of local artists</p>
+            </div>
+        </div>
+        <div class="header-top" data-header>
+            <div class="container">
+                <button class="nav-open-btn" aria-label="open menu" data-nav-toggler> 
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </button>
+
+                <div class="input-wrapper">
+                    <input type="search" name="search" placeholder="Search product" class="search-feild" >
+
+                    <button class="search-submit" aria-label="search">
+                        <ion-icon name="search-outline" aria-hidden="false"></ion-icon>
+                    </button>
+                </div>
+                <a href="#" class="logo">
+                    <img src="Pictures/Logo.png" width="179" height="26" alt="GharSeMarket">
+                </a>
+
+                <div class="header-action">
+                    <buttton class="header-action-btn" aria-label="user">
+                        <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+                    </buttton>
+                    <button class="header-action-btn" id="login-btn">Login</button>
+                    <button class="header-action-btn" id="signup-btn">Sign Up</button>
+                </div>
+                <nav class="navbar">
+                    <ul class="navbar-list">
+          
+                      <li>
+                        <a href="#home" class="navbar-link has-after">Home</a>
+                      </li>
+          
+                      <li>
+                        <a href="#collection" class="navbar-link has-after">Collection</a>
+                      </li>
+          
+                      <li>
+                        <a href="#shop" class="navbar-link has-after">Shop</a>
+                      </li>
+          
+                      <li>
+                        <a href="#blog" class="navbar-link has-after">Blog</a>
+                      </li>
+          
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- #MOBILE NAVBAR -->
+
+    <div class="sidebar">
+        <div class="mobile-navbar" data-navbar>
+            <div class="wrapper">
+                <a href="#" class="logo">
+                    <img src="Pictures/logo1.jpg" width="179" height="26" alt="GharSeMarket">
+                </a>
+
+                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+            </div>
+
+            <ul class="navbar-list">
+
+                <li>
+                  <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                </li>
+        
+                <li>
+                  <a href="#collection" class="navbar-link" data-nav-link>Collection</a>
+                </li>
+        
+                <li>
+                  <a href="#shop" class="navbar-link" data-nav-link>Shop</a>
+                </li>
+        
+                <li>
+                  <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                </li>
+                <li>
+                    <a href="Login Page/login.html" class="navbar-link" data-nav-link>Login</a>
+                  </li>
+                <li>
+                    <a href="Login Page/signin.html" class="navbar-link" data-nav-link>signin</a>
+                </li>
+        
+              </ul>
+        </div>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+
+
+
+    <main>
+        <article>
+
+            <!-- HERO -->
+            <section class="section hero" id="home" aria-label="hero" data-section>
+                <div class="container">
+        
+                  <ul class="has-scrollbar">
+        
+                    <li class="scrollbar-item">
+                      <div class="hero-card has-bg-image" style="background-image: url('Pictures/Banner-1.png')">
+        
+                        <div class="card-content">
+        
+                          <h1 class="h1 hero-title">
+                            <br>
+                            Unveil The <br>
+                            Artistry of Local Creators.
+                          </h1>
+        
+                          <p class="hero-text">
+                            Made with love and affection which brings a sense of comfort.
+                          </p>
+        
+                          <p class="price">Items are affordably priced</p>
+        
+                          <a href="#shop" class="btn btn-primary">Shop Now</a>
+        
+                        </div>
+        
+                      </div>
+                    </li>
+        
+                    <li class="scrollbar-item">
+                      <div class="hero-card has-bg-image" style="background-image: url('Pictures/Banner-2.png')">
+        
+                        <div class="card-content">
+        
+                          <h1 class="h1 hero-title">
+                            <br>
+                            We honour their stories,<br>
+                            not just their hardwork.
+                            
+                          </h1>
+        
+                          <p class="hero-text">
+                            The stroies which inspire the world.
+                          </p>
+        
+                          <p class="price">Get to know their Story</p>
+        
+                          <a href="#blog" class="btn btn-primary">Blog</a>
+        
+                        </div>
+        
+                      </div>
+                    </li>
+        
+                  </ul>
+        
+                </div>
+            </section>
+
+            <!-- COLLECTION -->
+             <section class="section collection" id="collection" aria-label="collection" data-section>
+                <div class="container">
+                    <ul class="collection-list">
+
+                        <li>
+                            <div class="collection-card has-before hover:shine">
+
+                                <h2 class="h2 card-title">Get muddy</h2>
+
+
+                                <p class="card-text">Grab the best pottery designs</p>
+
+                                <a href="#" class="btn-link">
+                                    <span class="span">Shop Now</span>
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+                                <div class="has-bg-image" style="background-image: url('Pictures/collection-1.jpg');"></div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collection-card has-before hover:shine">
+
+                                <h2 class="h2 card-title">Trend with jewels</h2>
+
+
+                                <p class="card-text">Get fresh ethnic pieces</p>
+
+                                <a href="#" class="btn-link">
+                                    <span class="span">Shop Now</span>
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+                                <div class="has-bg-image" style="background-image: url('Pictures/collection-3.png');"></div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collection-card has-before hover:shine">
+
+                                <h2 class="h2 card-title">Taste the sour of pickles</h2>
+
+
+                                <p class="card-text">Take-in authentic taste</p>
+
+                                <a href="#" class="btn-link">
+                                    <span class="span">Shop Now</span>
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+                                <div class="has-bg-image" style="background-image: url('Pictures/collection-2.png');"></div>
+
+                            </div>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+             </section>
+
+
+              <!-- #Features -->
+               <section class="section feature" aria-label="feature" data-section>
+                <h2 class="h2-large section-title">Why GharSeMarket?</h2>
+                
+                <ul class="flex-list">
+                    <li class="flex-item">
+                        <div class="feature-card">
+                            <img src="Pictures/feature1.png" width="204" height="236" loading="lazy" alt="Promotions" class="card-icon">
+                            <h3 class="h3 card-title">We Promote local vendors</h3>
+                            <p class="card-text">Every vendors get a platform to promote their business.</p>
+                        </div>
+                    </li>
+
+                    <li class="flex-item">
+                        <div class="feature-card">
+                            <img src="Pictures/feature2.png" width="204" height="236" loading="lazy" alt="Stories" class="card-icon">
+                            <h3 class="h3 card-title">We inspire everyone through their story</h3>
+                            <p class="card-text">Every vendors's has their own experiences and we try to share their knowledge through us.</p>
+                        </div>
+                    </li>
+
+                    <li class="flex-item">
+                        <div class="feature-card">
+                            <img src="Pictures/feature3.png" width="204" height="236" loading="lazy" alt="Low prices" class="card-icon">
+                            <h3 class="h3 card-title">We make the best deals</h3>
+                            <p class="card-text">We give the best offers to the user and the vendors. </p>
+                        </div>
+                    </li>
+                </ul>
+               </section>
+
+               <!-- #BLOG -->
+               <section class="section blog" id="blog" aria-label="blog" data-section>
+                <div class="container">
+        
+                  <h2 class="h2-large section-title">More to Discover</h2>
+        
+                  <ul class="flex-list">
+        
+                    <!-- <li class="flex-item">
+                      <div class="blog-card">
+        
+                        <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
+                          <img src="Pictures/blog-1.jpg" width="700" height="450" loading="lazy" alt="Find a Store"
+                            class="img-cover">
+                        </figure>
+        
+                        <h3 class="h3">
+                          <a href="#" class="card-title">Find their Store</a>
+                        </h3>
+        
+                        <a href="#" class="btn-link">
+                          <span class="span">Our Store</span>
+        
+                          <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </a>
+        
+                      </div>
+                    </li> -->
+        
+                    <li class="flex-item">
+                      <div class="blog-card">
+        
+                        <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
+                          <img src="Pictures/blog-2.jpg" width="700" height="450" loading="lazy" alt="From Our Blog"
+                            class="img-cover">
+                        </figure>
+        
+                        <h3 class="h3">
+                          <a href="#" class="card-title">From Our Blog</a>
+                        </h3>
+        
+                        <a href="#" class="btn-link">
+                          <span class="span">Our Store</span>
+        
+                          <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </a>
+        
+                      </div>
+                    </li>
+        
+                    <li class="flex-item">
+                      <div class="blog-card">
+        
+                        <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
+                          <img src="Pictures/blog-3.jpg" width="700" height="450" loading="lazy" alt="Our Story"
+                            class="img-cover">
+                        </figure>
+        
+                        <h3 class="h3">
+                          <a href="#" class="card-title">Their Story</a>
+                        </h3>
+        
+                        <a href="#" class="btn-link">
+                          <span class="span">Our Store</span>
+                          <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </a>
+        
+                      </div>
+                    </li>
+        
+                  </ul>
+        
+                </div>
+              </section>
+        
+        </article>
+    </main>
+
+    <!-- #FOOTER -->
+
+    <footer class="footer" data-section>
+        <div class="container">
+    
+          <div class="footer-top">
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Company</p>
+              </li>
+    
+              <!-- <li>
+                <p class="footer-list-text">
+                  Find a location nearest you. See <a href="#" class="link">Our Stores</a>
+                </p>
+              </li> -->
+    
+              <li>
+                <p class="footer-list-text bold">+91 9891158555</p>
+              </li>
+    
+              <li>
+                <p class="footer-list-text">mudita21jain@gmail.com</p>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Useful links</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">New Products</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Best Sellers</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Bundle & Save</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Online Gift Card</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Infomation</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Start a Return</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Contact Us</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Shipping FAQ</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Terms & Conditions</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Privacy Policy</a>
+              </li>
+    
+            </ul>
+    
+            <div class="footer-list">
+    
+              <p class="newsletter-title">Good emails.</p>
+    
+              <p class="newsletter-text">
+                Enter your email below to give your feedbacks. 
+              </p>
+    
+              <form action="" class="newsletter-form">
+                <input type="email" name="email_address" placeholder="Enter your email address" required
+                  class="email-field">
+    
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+    
+            </div>
+    
+          </div>
+    
+          <div class="footer-bottom">
+    
+            <div class="wrapper">
+              <p class="copyright">
+                &copy; 2024 MJ
+              </p>
+    
+              <ul class="social-list">
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+    
+              </ul>
+            </div>
+    
+            <a href="#" class="logo">
+              <img src="Pictures/logo1.jpg" width="179" height="26" loading="lazy" alt="Glowing">
+            </a>
+    
+            <img src="Pictures/pay.png" width="313" height="28" alt="available all payment method" class="w-100">
+    
+          </div>
+    
+        </div>
+    </footer>
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="arrow-up" aria-hidden="true""></ion-icon>
+    </a>
+
+    <script src="script.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        document.getElementById('login-btn').addEventListener('click', function() {
+            window.location.href = 'Login Page/login.html'; // Change to 'login.html' if you want this to open the login page
+        });
+
+        document.getElementById('signup-btn').addEventListener('click', function() {
+            window.location.href = 'Login Page/signin.html';
+        });
+    </script>
+    
+</body>
+</html>
